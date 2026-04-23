@@ -33,7 +33,7 @@
         "link": "/divisions/healthcare"
       },
       {
-        "icons": "Wrench",
+        "icon": "Wrench",
         "label": "Maintenance",
         "description": "Ongoing service & support",
         "link": "/divisions/maintenance"
