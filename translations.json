@@ -9,32 +9,38 @@
     "capabilities-title": "Our Capabilities",
     "capabilities": [
       {
-        "title": "Industrial",
+        "icon": "Factory",
+        "label": "Industrial",
         "description": "Heavy industrial electrical systems",
         "link": "/divisions/industrial"
       },
       {
-        "title": "Commercial",
+        "icon": "Building2",
+        "label": "Commercial",
         "description": "Office buildings & facilities",
         "link": "/divisions/commercial"
       },
       {
-        "title": "Retail",
+        "icon": "ShoppingBag",
+        "label": "Retail",
         "description": "Retail spaces & shopping centers",
         "link": "/divisions/retail"
       },
       {
-        "title": "Healthcare",
+        "icon": "Heart",
+        "label": "Healthcare",
         "description": "Hospitals & medical facilities",
         "link": "/divisions/healthcare"
       },
       {
-        "title": "Maintenance",
+        "icons": "Wrench",
+        "label": "Maintenance",
         "description": "Ongoing service & support",
         "link": "/divisions/maintenance"
       },
       {
-        "title": "Safety First",
+        "icon": "Shield",
+        "label": "Safety First",
         "description": "OSHA compliant operations",
         "link": "/divisions/safety"
       }
