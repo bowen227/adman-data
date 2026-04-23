@@ -1,0 +1,61 @@
+{
+  "home": {
+    "header-title": "Powering Your Vision With Excellence",
+    "header-copy": "Full-service electrical contractor specializing in industrial, commercial, retail, and healthcare projects.",
+    "header-primary-cta-label": "Get Started",
+    "header-primary-cta-link": "/divisions",
+    "header-secondary-cta-label": "View Projects",
+    "header-secondary-cta-link": "/projects",
+    "capabilities-title": "Our Capabilities",
+    "capabilities": [
+      {
+        "title": "Industrial",
+        "description": "Heavy industrial electrical systems",
+        "link": "/divisions/industrial"
+      },
+      {
+        "title": "Commercial",
+        "description": "Office buildings & facilities",
+        "link": "/divisions/commercial"
+      },
+      {
+        "title": "Retail",
+        "description": "Retail spaces & shopping centers",
+        "link": "/divisions/retail"
+      },
+      {
+        "title": "Healthcare",
+        "description": "Hospitals & medical facilities",
+        "link": "/divisions/healthcare"
+      },
+      {
+        "title": "Maintenance",
+        "description": "Ongoing service & support",
+        "link": "/divisions/maintenance"
+      },
+      {
+        "title": "Safety First",
+        "description": "OSHA compliant operations",
+        "link": "/divisions/safety"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Years of Experience",
+        "value": "25+"
+      },
+      {
+        "label": "Projects Completed",
+        "value": "500+"
+      },
+      {
+        "label": "Safety Commitment",
+        "value": "100%"
+      }
+    ],
+    "start-project-title": "Ready to Start Your Project?",
+    "start-project-copy": "Our team of experienced professionals is ready to bring your electrical project to life.",
+    "start-project-cta-label": "Contact Us Today",
+    "start-project-cta-link": "/divisions"
+  }
+}
