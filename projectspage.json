@@ -1,101 +1,106 @@
 {
-  "homePage": {
+  "projectsPage": {
     "components": [
       {
-        "type": "Hero",
+        "type": "FilterByCategory",
         "props": {
-          "title": "Powering Your Vision With Excellence",
-          "copy": "Full-service electrical contractor specializing in industrial, commercial, retail, and healthcare projects.",
-          "primaryCta": {
-            "label": "Get Started",
-            "link": "/divisions"
-          },
-          "secondaryCta": {
-            "label": "View Projects",
-            "link": "/projects"
-          }
-        }
-      },
-      {
-        "type": "CardList",
-        "props": {
-          "title": "Our Capabilities",
-          "cards": [
-            {
-              "icon": "Factory",
-              "label": "Industrial",
-              "description": "Heavy industrial electrical systems",
-              "link": "/divisions/industrial"
-            },
-            {
-              "icon": "Building2",
-              "label": "Commercial",
-              "description": "Office buildings & facilities",
-              "link": "/divisions/commercial"
-            },
-            {
-              "icon": "ShoppingBag",
-              "label": "Retail",
-              "description": "Retail spaces & shopping centers",
-              "link": "/divisions/retail"
-            },
-            {
-              "icon": "Heart",
-              "label": "Healthcare",
-              "description": "Hospitals & medical facilities",
-              "link": "/divisions/healthcare"
-            },
-            {
-              "icon": "Wrench",
-              "label": "Maintenance",
-              "description": "Ongoing service & support",
-              "link": "/divisions/maintenance"
-            },
-            {
-              "icon": "Shield",
-              "label": "Safety First",
-              "description": "OSHA compliant operations",
-              "link": "/divisions/safety"
-            }
+          "title": "Our Projects",
+          "copy": "Explore our portfolio of completed electrical projects across multiple industries",
+          "categories": [
+            "All",
+            "Industrial",
+            "Commercial",
+            "Retail",
+            "Healthcare",
+            "Institutional",
+            "Governmental",
+            "Maintenance",
+            "Special Projects",
+            "Low Voltage",
+            "Pre-Construction"
           ],
-          "styles": {
-            "iconBgColor": "bg-blue-100",
-            "iconColor": "text-blue-600"
-          }
-        }
-      },
-      {
-        "type": "TripleStats",
-        "props": {
-          "stats": [
-            {
-              "label": "Years of Experience",
-              "value": "25+"
-            },
-            {
-              "label": "Projects Completed",
-              "value": "500+"
-            },
-            {
-              "label": "Safety Commitment",
-              "value": "100%"
-            }
-          ],
-          "styles": {
-            "textColor": "text-gray-600",
-            "statColor": "text-blue-600"
-          }
-        }
-      },
-      {
-        "type": "CTABanner",
-        "props": {
-          "title": "Ready to Power Your Next Project?",
-          "copy": "Contact us today to discuss your electrical contracting needs and discover how we can bring your vision to life with excellence.",
-          "primaryCta": {
-            "label": "Contact Us",
-            "link": "/contact"
-          }
+          "projects": [
+              {
+                "id": 1,
+                "title": "Manufacturing Facility Upgrade",
+                "category": "Industrial",
+                "description": "Complete electrical system overhaul for 200,000 sq ft manufacturing plant",
+                "image": "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?w=800&h=600&fit=crop",
+                "year": "2025"
+              },
+              {
+                "id": 2,
+                "title": "Downtown Office Complex",
+                "category": "Commercial",
+                "description": "New construction electrical installation for 15-story office building",
+                "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop",
+                "year": "2024"
+              },
+              {
+                "id": 3,
+                "title": "Regional Shopping Center",
+                "category": "Retail",
+                "description": "Comprehensive electrical and lighting system for 500,000 sq ft retail space",
+                "image": "https://images.unsplash.com/photo-1555636222-cae831e670b3?w=800&h=600&fit=crop",
+                "year": "2024"
+              },
+              {
+                "id": 4,
+                "title": "Medical Center Expansion",
+                "category": "Healthcare",
+                "description": "Critical power systems and emergency backup for hospital wing addition",
+                "image": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&h=600&fit=crop",
+                "year": "2025"
+              },
+              {
+                "id": 5,
+                "title": "University Science Building",
+                "category": "Institutional",
+                "description": "Advanced electrical and data infrastructure for research laboratories",
+                "image": "https://images.unsplash.com/photo-1562774053-701939374585?w=800&h=600&fit=crop",
+                "year": "2024"
+              },
+              {
+                "id": 6,
+                "title": "City Hall Renovation",
+                "category": "Governmental",
+                "description": "Historic building electrical modernization and energy efficiency upgrades",
+                "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=800&h=600&fit=crop",
+                "year": "2023"
+              },
+              {
+                "id": 7,
+                "title": "Pharmaceutical Plant Maintenance",
+                "category": "Maintenance",
+                "description": "Ongoing preventive maintenance and 24/7 emergency service",
+                "image": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&h=600&fit=crop",
+                "year": "2025"
+              },
+              {
+                "id": 8,
+                "title": "Data Center Power Distribution",
+                "category": "Special Projects",
+                "description": "Redundant power systems and UPS installation for mission-critical facility",
+                "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=600&fit=crop",
+                "year": "2024"
+              },
+              {
+                "id": 9,
+                "title": "Corporate Campus Network",
+                "category": "Low Voltage",
+                "description": "Structured cabling, security, and AV systems for multi-building campus",
+                "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=600&fit=crop",
+                "year": "2025"
+              },
+              {
+                "id": 10,
+                "title": "Industrial Park Development",
+                "category": "Pre-Construction",
+                "description": "Design-build electrical planning and value engineering services",
+                "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&h=600&fit=crop",
+                "year": "2025"
+              }
+          ]
         }
       }
     ]
