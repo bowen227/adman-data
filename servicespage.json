@@ -1,0 +1,90 @@
+{
+  "servicesPage": {
+    "components": [
+      {
+        "type": "CardList",
+        "props": {
+          "title": "Our Services",
+          "copy": "Comprehensive electrical contracting services for industrial, commercial, retail, and healthcare facilities",
+          "cards": [
+            {
+              "icon": "Building",
+              "title": "Design-Build Services",
+              "description":
+                "Collaborative approach from concept through completion. Our design-build team works with architects and engineers to deliver cost-effective electrical solutions."
+            },
+            {
+              "icon": "Hammer",
+              "title": "New Construction",
+              "description":
+                "Complete electrical installations for ground-up construction projects. We handle everything from power distribution to lighting and control systems."
+            },
+            {
+              "icon": "Settings",
+              "title": "Retrofit & Renovation",
+              "description":
+                "Modernize existing facilities with updated electrical systems. We specialize in live building retrofits with minimal disruption to operations."
+            },
+            {
+              "icon": "Lightbulb",
+              "title": "Energy Management",
+              "description":
+                "LED lighting upgrades, energy audits, and smart building controls to reduce operating costs and improve sustainability."
+            },
+            {
+              "icon": "Cable",
+              "title": "Low Voltage Systems",
+              "description":
+                "Structured cabling, fiber optics, security systems, access control, CCTV, and audio/visual installations."
+            },
+            {
+              "icon": "Battery",
+              "title": "Power Quality & UPS",
+              "description":
+                "Uninterruptible power supply systems, surge protection, harmonic filtering, and power factor correction for sensitive equipment."
+            },
+            {
+              "icon": "Shield",
+              "title": "Emergency Power",
+              "description":
+                "Generator installations, automatic transfer switches, and critical power distribution for hospitals, data centers, and essential facilities."
+            },
+            {
+              "icon": "Wrench",
+              "title": "Preventive Maintenance",
+              "description":
+                "Scheduled maintenance programs, infrared thermography, circuit breaker testing, and comprehensive facility inspections."
+            },
+            {
+              "icon": "Phone",
+              "title": "24/7 Emergency Service",
+              "description":
+                "Round-the-clock emergency response for critical electrical issues. Our service technicians are available whenever you need them."
+            },
+            {
+              "icon": "ClipboardCheck",
+              "title": "Pre-Construction Planning",
+              "description":
+                "Value engineering, constructability reviews, and electrical system design consultation to optimize project outcomes."
+            },
+            {
+              "icon": "Zap",
+              "title": "Industrial Controls",
+              "description":
+                "Motor control centers, variable frequency drives, programmable logic controllers, and SCADA system integration."
+            },
+            {
+              "icon": "Boxes",
+              "title": "Data Center Infrastructure",
+              "description":
+                "Specialized electrical systems for mission-critical facilities including redundant power distribution and precision cooling support."
+            }
+          ]
+        }
+      },
+      {
+        "type": "CustomCTABanner"
+      }
+    ]
+  }
+}
