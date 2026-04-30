@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "/",
+    "component": "homepage"
+  },
+  {
+    "slug": "/projects",
+    "component": "projectsPage"
+  },
+  {
+    "slug": "/services",
+    "component": "servicesPage"
+  },
+  {
+    "slug": "/safety",
+    "component": "safetyPage"
+  },
+  {
+    "slug": "/about",
+    "component": "aboutPage"
+  },
+  {
+    "slug": "/locations",
+    "component": "locationsPage"
+  },
+  {
+    "slug": "/divisions",
+    "component": "divisionsPage"
+  }
+]
