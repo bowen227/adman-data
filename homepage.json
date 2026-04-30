@@ -1,0 +1,89 @@
+{
+  "homePage": {
+    "components": [
+      {
+        "type": "Hero",
+        "props": {
+          "title": "Powering Your Vision With Excellence",
+          "copy": "Full-service electrical contractor specializing in industrial, commercial, retail, and healthcare projects.",
+          "primaryCta": {
+            "label": "Get Started",
+            "link": "/divisions"
+          },
+          "secondaryCta": {
+            "label": "View Projects",
+            "link": "/projects"
+          }
+        }
+      },
+      {
+        "type": "CardList",
+        "props": {
+          "title": "Our Capabilities",
+          "cards": [
+            {
+              "title": "Industrial",
+              "description": "Heavy industrial electrical systems",
+              "link": "/divisions/industrial"
+            },
+            {
+              "title": "Commercial",
+              "description": "Office buildings & facilities",
+              "link": "/divisions/commercial"
+            },
+            {
+              "title": "Retail",
+              "description": "Retail spaces & shopping centers",
+              "link": "/divisions/retail"
+            },
+            {
+              "title": "Healthcare",
+              "description": "Hospitals & medical facilities",
+              "link": "/divisions/healthcare"
+            },
+            {
+              "title": "Maintenance",
+              "description": "Ongoing service & support",
+              "link": "/divisions/maintenance"
+            },
+            {
+              "title": "Safety First",
+              "description": "OSHA compliant operations",
+              "link": "/divisions/safety"
+            }
+          ],
+          "styles": {
+            "iconBgColor": "bg-blue-100",
+            "iconColor": "text-blue-600"
+          }
+        }
+      },
+      {
+        "type": "TripleStats",
+        "props": {
+          "stats": [
+            {
+              "label": "Years of Experience",
+              "value": "25+"
+            },
+            {
+              "label": "Projects Completed",
+              "value": "500+"
+            },
+            {
+              "label": "Safety Commitment",
+              "value": "100%"
+            }
+          ],
+          "styles": {
+            "textColor": "text-gray-600",
+            "statColor": "text-blue-600"
+          }
+        }
+      },
+      {
+        "type": "CTABanner"
+      }
+    ]
+  }
+}
