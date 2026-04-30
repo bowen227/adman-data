@@ -1,0 +1,103 @@
+{
+  "homePage": {
+    "components": [
+      {
+        "type": "Hero",
+        "props": {
+          "title": "Powering Your Vision With Excellence",
+          "copy": "Full-service electrical contractor specializing in industrial, commercial, retail, and healthcare projects.",
+          "primaryCta": {
+            "label": "Get Started",
+            "link": "/divisions"
+          },
+          "secondaryCta": {
+            "label": "View Projects",
+            "link": "/projects"
+          }
+        }
+      },
+      {
+        "type": "CardList",
+        "props": {
+          "title": "Our Capabilities",
+          "cards": [
+            {
+              "icon": "Factory",
+              "label": "Industrial",
+              "description": "Heavy industrial electrical systems",
+              "link": "/divisions/industrial"
+            },
+            {
+              "icon": "Building2",
+              "label": "Commercial",
+              "description": "Office buildings & facilities",
+              "link": "/divisions/commercial"
+            },
+            {
+              "icon": "ShoppingBag",
+              "label": "Retail",
+              "description": "Retail spaces & shopping centers",
+              "link": "/divisions/retail"
+            },
+            {
+              "icon": "Heart",
+              "label": "Healthcare",
+              "description": "Hospitals & medical facilities",
+              "link": "/divisions/healthcare"
+            },
+            {
+              "icon": "Wrench",
+              "label": "Maintenance",
+              "description": "Ongoing service & support",
+              "link": "/divisions/maintenance"
+            },
+            {
+              "icon": "Shield",
+              "label": "Safety First",
+              "description": "OSHA compliant operations",
+              "link": "/divisions/safety"
+            }
+          ],
+          "styles": {
+            "iconBgColor": "bg-blue-100",
+            "iconColor": "text-blue-600"
+          }
+        }
+      },
+      {
+        "type": "TripleStats",
+        "props": {
+          "stats": [
+            {
+              "label": "Years of Experience",
+              "value": "25+"
+            },
+            {
+              "label": "Projects Completed",
+              "value": "500+"
+            },
+            {
+              "label": "Safety Commitment",
+              "value": "100%"
+            }
+          ],
+          "styles": {
+            "textColor": "text-gray-600",
+            "statColor": "text-blue-600"
+          }
+        }
+      },
+      {
+        "type": "CTABanner",
+        "props": {
+          "title": "Ready to Power Your Next Project?",
+          "copy": "Contact us today to discuss your electrical contracting needs and discover how we can bring your vision to life with excellence.",
+          "primaryCta": {
+            "label": "Contact Us",
+            "link": "/contact"
+          }
+        }
+      }
+    ]
+  }
+}

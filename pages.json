@@ -1,30 +1,30 @@
 [
   {
     "slug": "/",
-    "component": "homepage"
+    "component": "homepage.json"
   },
   {
     "slug": "/projects",
-    "component": "projectsPage"
+    "component": "projectsPage.json"
   },
   {
     "slug": "/services",
-    "component": "servicesPage"
+    "component": "servicesPage.json"
   },
   {
     "slug": "/safety",
-    "component": "safetyPage"
+    "component": "safetyPage.json"
   },
   {
     "slug": "/about",
-    "component": "aboutPage"
+    "component": "aboutPage.json"
   },
   {
     "slug": "/locations",
-    "component": "locationsPage"
+    "component": "locationsPage.json"
   },
   {
     "slug": "/divisions",
-    "component": "divisionsPage"
+    "component": "divisionsPage.json"
   }
 ]
