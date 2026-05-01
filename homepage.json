@@ -92,10 +92,8 @@
         "props": {
           "title": "Ready to Power Your Next Project?",
           "description": "Contact us today to discuss your electrical contracting needs and discover how we can bring your vision to life with excellence.",
-          "primaryCta": {
-            "buttonText": "Contact Us",
-            "buttonLink": "/contact"
-          }
+          "buttonText": "Contact Us",
+          "buttonLink": "/contact"
         }
       }
     ]
