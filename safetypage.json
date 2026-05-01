@@ -69,7 +69,8 @@
           ],
           "styles": {
             "iconBgColor": "bg-green-100",
-            "iconColor": "text-green-600"
+            "iconColor": "text-green-600",
+            "padding": "pb-16"
           }
         }
       },
