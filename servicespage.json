@@ -2,9 +2,13 @@
   "servicesPage": {
     "components": [
       {
+        "type": "HeroBasic",
+        "props": {}
+      },
+      {
         "type": "CardList",
         "props": {
-          "title": "Our Services",
+          "title": "",
           "copy": "Comprehensive electrical contracting services for industrial, commercial, retail, and healthcare facilities",
           "cards": [
             {
