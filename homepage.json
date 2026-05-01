@@ -91,7 +91,7 @@
         "type": "CTABanner",
         "props": {
           "title": "Ready to Power Your Next Project?",
-          "copy": "Contact us today to discuss your electrical contracting needs and discover how we can bring your vision to life with excellence.",
+          "description": "Contact us today to discuss your electrical contracting needs and discover how we can bring your vision to life with excellence.",
           "primaryCta": {
             "buttonText": "Contact Us",
             "buttonLink": "/contact"
