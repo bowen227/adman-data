@@ -1,3 +1,13 @@
 {
-  "locationsPage": {}
+  "locationsPage": {
+    "components": [
+      {
+        "type": "IconHero",
+        "props": {
+          "title": "Our Locations",
+          "description": "With regional offices across the Southeast, we're positioned to serve your electrical needs wherever your projects take you."
+        }
+      }
+    ]
+  }
 }
