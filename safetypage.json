@@ -1,0 +1,89 @@
+{
+  "safetyPage": {
+    "components": [
+      {
+        "type": "IconHero",
+        "props": {
+          "title": "Safety First, Always",
+          "description": "Safety is not just a priority—it's our core value. Every decision, every action, every project begins with the safety and well-being of our team, clients, and communities.",
+          "icon": "ShieldCheck"
+        }
+      },
+      {
+        "type": "TripleStats",
+        "props": {
+          "stats": [
+            { "value": "0.00", "label": "OSHA Recordable Rate" },
+            { "value": "100%", "label": "Safety Training Compliance" },
+            { "value": "0.54", "label": "EMR Rating" }
+          ],
+          "textColor": "text-green-600",
+          "statColor": "text-green-600",
+          "bgColor": "bg-white",
+          "customStatStyles": "bg-gray-50 rounded-xl p-8"
+        }
+      },
+      {
+        "type": "CardList",
+        "props": {
+          "title": "Our Safety Commitments",
+          "cards": [
+            {
+              "icon": "ShieldCheck",
+              "title": "Zero Incident Goal",
+              "description":
+                "Our ultimate goal is zero workplace incidents. We maintain rigorous safety protocols and continuous improvement processes to protect every team member."
+            },
+            {
+              "icon": "HardHat",
+              "title": "OSHA Compliance",
+              "description":
+                "Full compliance with OSHA regulations and industry best practices. Our safety program exceeds minimum requirements to ensure the highest level of protection."
+            },
+            {
+              "icon": "ClipboardList",
+              "title": "Daily Safety Briefings",
+              "description":
+                "Every project begins with job-specific safety planning and daily toolbox talks to address hazards and reinforce safe work practices."
+            },
+            {
+              "icon": "Users",
+              "title": "Trained Workforce",
+              "description":
+                "All electricians maintain current certifications including OSHA 30, CPR/First Aid, and specialized training for high-voltage and confined space work."
+            },
+            {
+              "icon": "AlertTriangle",
+              "title": "Hazard Prevention",
+              "description":
+                "Proactive identification and mitigation of electrical hazards through comprehensive job hazard analysis and safety audits."
+            },
+            {
+              "icon": "BookOpen",
+              "title": "Ongoing Education",
+              "description":
+                "Continuous safety training programs keep our team updated on the latest safety standards, equipment, and industry practices."
+            }
+          ],
+          "iconColor": "text-green-600",
+          "iconBgColor": "bg-green-100"
+        }
+      },
+      {
+        "type": "CertTraining",
+        "props": {
+          "certifications": [
+            "OSHA 10-Hour & 30-Hour Certified",
+            "NFPA 70E Arc Flash Training",
+            "Confined Space Entry Qualified",
+            "Fall Protection Certified",
+            "Aerial Lift & Scissor Lift Certified",
+            "CPR & First Aid Certified",
+            "Lockout/Tagout (LOTO) Trained",
+            "Hazmat Awareness Certified"
+          ]
+        }
+      }
+    ]
+  }
+}
