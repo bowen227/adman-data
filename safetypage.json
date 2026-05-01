@@ -17,10 +17,12 @@
             { "value": "100%", "label": "Safety Training Compliance" },
             { "value": "0.54", "label": "EMR Rating" }
           ],
-          "textColor": "text-green-600",
-          "statColor": "text-green-600",
-          "bgColor": "bg-white",
-          "customStatStyles": "bg-gray-50 rounded-xl p-8"
+          "styles": {
+            "textColor": "text-gray-600",
+            "statColor": "text-green-600",
+            "bgColor": "bg-white",
+            "customStatStyles": "bg-gray-50 rounded-xl p-8"
+          }
         }
       },
       {
