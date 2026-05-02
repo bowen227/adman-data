@@ -53,7 +53,7 @@
         "type": "CardList",
         "props": {
           "title": "Our Core Values",
-          "cardType": "coreValue",
+          "type": "coreValue",
           "cards": [
             {
               "icon": "Target",
