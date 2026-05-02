@@ -1,3 +1,170 @@
 {
-  "divisionsPage": {}
+  "divisionsPage": {
+    "components": [
+      {
+        "type": "IconHero",
+        "props": {
+          "title": "Our Divisions",
+          "description": "Specialized teams dedicated to delivering excellence in their respective areas of expertise.",
+          "styles": {
+            "bgColor": "bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900"
+          }
+        }
+      },
+      {
+        "type": "CardList",
+        "props": {
+          "type": "division",
+          "cards": [
+                {
+                  "icon": "Factory",
+                  "name": "Industrial Division",
+                  "contacts": [
+                    {
+                      "contact": "Robert Calhoun",
+                      "title": "Senior Estimator",
+                      "phone": "(423) 622-5103",
+                      "email": "RCalhoun@admanelectric.com"
+                    }
+                  ],
+                  "contact": "John Mitchell",
+                  "title": "Division Manager",
+                  "phone": "(555) 123-4501",
+                  "email": "industrial@powertech.com",
+                  "description":
+                    "Specializing in heavy industrial electrical systems, process automation, and high-voltage installations for manufacturing facilities.",
+                  "services": [
+                    "Motor Control Centers",
+                    "High-Voltage Distribution",
+                    "Industrial Automation",
+                    "Process Controls"
+                  ]
+                },
+                {
+                  "icon": "Building",
+                  "name": "Commercial Division",
+                  "contacts": [
+                    {
+                      "contact": "Robert Calhoun",
+                      "title": "Senior Estimator",
+                      "phone": "(423) 622-5103",
+                      "email": "RCalhoun@admanelectric.com"
+                    }
+                  ],
+                  "contact": "Sarah Anderson",
+                  "title": "Division Manager",
+                  "phone": "(555) 123-4502",
+                  "email": "commercial@powertech.com",
+                  "description":
+                    "Complete electrical solutions for office buildings, multi-tenant facilities, and commercial developments.",
+                  "services": [
+                    "Tenant Build-Outs",
+                    "Office Renovations",
+                    "Energy Management",
+                    "Emergency Power"
+                  ]
+                },
+                {
+                  "icon": "Cable",
+                  "name": "Low Voltage Division",
+                  "contacts": [
+                    {
+                      "contact": "Robert Calhoun",
+                      "title": "Senior Estimator",
+                      "phone": "(423) 622-5103",
+                      "email": "RCalhoun@admanelectric.com"
+                    }
+                  ],
+                  "contact": "Michael Chen",
+                  "title": "Division Manager",
+                  "phone": "(555) 123-4503",
+                  "email": "lowvoltage@powertech.com",
+                  "description":
+                    "Structured cabling, security systems, access control, CCTV, and audio/visual installations.",
+                  "services": [
+                    "Structured Cabling",
+                    "Fiber Optics",
+                    "Security Systems",
+                    "AV Integration"
+                  ]
+                },
+                {
+                  "icon": "Cpu",
+                  "name": "Data Center Division",
+                  "contacts": [
+                    {
+                      "contact": "Robert Calhoun",
+                      "title": "Senior Estimator",
+                      "phone": "(423) 622-5103",
+                      "email": "RCalhoun@admanelectric.com"
+                    }
+                  ],
+                  "contact": "Jennifer Martinez",
+                  "title": "Division Manager",
+                  "phone": "(555) 123-4504",
+                  "email": "datacenter@powertech.com",
+                  "description":
+                    "Mission-critical electrical infrastructure for data centers including redundant power systems and UPS.",
+                  "services": [
+                    "Redundant Power Distribution",
+                    "UPS Systems",
+                    "Power Quality",
+                    "Emergency Generators"
+                  ]
+                },
+                {
+                  "icon": "Wrench",
+                  "name": "Service & Maintenance",
+                  "contacts": [
+                    {
+                      "contact": "Robert Calhoun",
+                      "title": "Senior Estimator",
+                      "phone": "(423) 622-5103",
+                      "email": "RCalhoun@admanelectric.com"
+                    }
+                  ],
+                  "contact": "Robert Taylor",
+                  "title": "Service Manager",
+                  "phone": "(555) 123-4505",
+                  "email": "service@powertech.com",
+                  "description":
+                    "24/7 emergency service, preventive maintenance programs, and ongoing facility support.",
+                  "services": [
+                    "24/7 Emergency Response",
+                    "Preventive Maintenance",
+                    "Infrared Thermography",
+                    "Circuit Breaker Testing"
+                  ]
+                },
+                {
+                  "icon": "ClipboardCheck",
+                  "name": "Pre-Construction Services",
+                  "contacts": [
+                    {
+                      "contact": "Robert Calhoun",
+                      "title": "Senior Estimator",
+                      "phone": "(423) 622-5103",
+                      "email": "RCalhoun@admanelectric.com"
+                    }
+                  ],
+                  "contact": "Robert Calhoun",
+                  "title": "Senior Estimator",
+                  "phone": "(423) 622-5103",
+                  "email": "RCalhoun@admanelectric.com",
+                  "description": "Design-build services, value engineering, and constructability reviews to optimize project outcomes.",
+                  "services": [
+                    "Design-Build",
+                    "Value Engineering",
+                    "Constructability Reviews",
+                    "Budget Estimating"
+                  ]
+                }
+          ]
+        }
+      },
+      {
+        "type": "ContactForm"
+      }
+    ]
+  }
 }
