@@ -2,7 +2,108 @@
   "aboutPage": {
     "components": [
       {
-        
+        "type": "IconHero",
+        "props": {
+          "title": "About Adman Electric",
+          "description": "For over 25 years, we've been powering progress across industrial, commercial, retail, and healthcare sectors with innovative electrical solutions and unwavering commitment to excellence.",
+          "styles": {
+            "bgColor": "bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900"
+          }
+        }
+      },
+      {
+        "type": "OurStory",
+        "props": {
+          "title": "Our Story",
+          "copy": [
+            "Founded in 2001 by a team of experienced electricians with a vision to provide superior electrical contracting services, PowerTech Electric has grown from a small local contractor to a regional leader serving multiple states.",
+            "Our growth has been driven by our commitment to quality, safety, and client satisfaction. We've built our reputation one project at a time, earning the trust of facility managers, general contractors, and property owners across diverse industries.",
+            "Today, with over 200 skilled professionals and multiple divisions specializing in everything from heavy industrial to precision low-voltage systems, we continue to innovate and adapt to meet the evolving needs of our clients."
+          ],
+          "milestones": [
+            {
+              "year": "2001",
+              "event": "PowerTech Electric founded with a team of 5 electricians"
+            },
+            {
+              "year": "2005",
+              "event": "Expanded into healthcare electrical services"
+            },
+            {
+              "year": "2010",
+              "event": "Opened second regional office, grew to 50+ employees"
+            },
+            {
+              "year": "2015",
+              "event": "Achieved $50M in annual revenue milestone"
+            },
+            {
+              "year": "2020",
+              "event": "Launched Low Voltage and Data Center divisions"
+            },
+            {
+              "year": "2026",
+              "event": "Now serving 7 states with 200+ skilled professionals"
+            }
+          ]
+        }
+      },
+      {
+        "type": "CardList",
+        "props": {
+          "title": "Our Core Values",
+          "cardType": "coreValue",
+          "cards": [
+            {
+              "icon": "Target",
+              "title": "Excellence",
+              "description": "We deliver superior craftsmanship and exceptional service on every project."
+            },
+            {
+              "icon": "Users",
+              "title": "Partnership",
+              "description": "Building lasting relationships with clients, partners, and our community."
+            },
+            {
+              "icon": "Lightbulb",
+              "title": "Innovation",
+              "description": "Embracing new technologies and methods to deliver better solutions."
+            },
+            {
+              "icon": "Award",
+              "title": "Integrity",
+              "description": "Honest, transparent, and ethical in all our business practices."
+            }
+          ],
+          "styles": {
+            "bgColor": "bg-gray-50"
+          }
+        }
+      },
+      {
+        "type": "AboutCardsSection",
+        "props": {
+          "items": [
+            {
+              "icon": "TrendingUp",
+              "title": "200+",
+              "subTitle": "Team Members",
+              "description": "Licensed electricians, project managers, and support staff"
+            },
+            {
+              "icon": "Award",
+              "title": "25+",
+              "subTitle": "Years Experience",
+              "description": "Serving industrial, commercial, retail, and healthcare sectors"
+            },
+            {
+              "icon": "Target",
+              "title": "7",
+              "subTitle": "States Served",
+              "description": "Regional presence with multiple office locations"
+            }
+          ]
+        }
       }
     ]
   }
