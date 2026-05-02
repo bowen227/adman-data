@@ -5,7 +5,96 @@
         "type": "IconHero",
         "props": {
           "title": "Our Locations",
-          "description": "With regional offices across the Southeast, we're positioned to serve your electrical needs wherever your projects take you."
+          "description": "With regional offices across the Southeast, we're positioned to serve your electrical needs wherever your projects take you.",
+          "styles": {
+            "bgColor": "bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900"
+          }
+        }
+      },
+      {
+        "type": "CardList",
+        "props": {
+          "type": "location",
+          "cards": [
+                {
+                  "name": "Corporate Headquarters",
+                  "address": "2311 East 28th Street",
+                  "city": "Chattanooga, TN  37407",
+                  "phone": "(555) 123-4567",
+                  "email": "chattanooga@admanelectric.com",
+                  "hours": "Monday - Friday: 7:00 AM - 6:00 PM",
+                  "emergency": "24/7 Emergency Service Available",
+                  "isHeadquarters": true
+                },
+                {
+                  "name": "Northern Regional Office",
+                  "address": "2311 East 28th Street",
+                  "city": "Chattanooga, TN  37407",
+                  "phone": "(555) 123-4567",
+                  "email": "chattanooga@admanelectric.com",
+                  "hours": "Monday - Friday: 7:00 AM - 5:00 PM",
+                  "emergency": "24/7 Emergency Service Available",
+                  "isHeadquarters": false
+                },
+                {
+                  "name": "Western Regional Office",
+                  "address": "2311 East 28th Street",
+                  "city": "Chattanooga, TN  37407",
+                  "phone": "(555) 123-4567",
+                  "email": "chattanooga@admanelectric.com",
+                  "hours": "Monday - Friday: 6:00 AM - 5:00 PM",
+                  "emergency": "24/7 Emergency Service Available",
+                  "isHeadquarters": false
+                },
+                {
+                  "name": "Southern Regional Office",
+                  "address": "2311 East 28th Street",
+                  "city": "Chattanooga, TN  37407",
+                  "phone": "(555) 123-4567",
+                  "email": "chattanooga@admanelectric.com",
+                  "hours": "Monday - Friday: 7:00 AM - 6:00 PM",
+                  "emergency": "24/7 Emergency Service Available",
+                  "isHeadquarters": false
+                },
+                {
+                  "name": "Eastern Regional Office",
+                  "address": "2311 East 28th Street",
+                  "city": "Chattanooga, TN  37407",
+                  "phone": "(555) 123-4567",
+                  "email": "chattanooga@admanelectric.com",
+                  "hours": "Monday - Friday: 7:00 AM - 5:00 PM",
+                  "emergency": "24/7 Emergency Service Available",
+                  "isHeadquarters": false
+                },
+                {
+                  "name": "Midwest Regional Office",
+                  "address": "2311 East 28th Street",
+                  "city": "Chattanooga, TN  37407",
+                  "phone": "(555) 123-4567",
+                  "email": "chattanooga@admanelectric.com",
+                  "hours": "Monday - Friday: 7:00 AM - 5:00 PM",
+                  "emergency": "24/7 Emergency Service Available",
+                  "isHeadquarters": false
+                }
+          ]
+        }
+      },
+      {
+        "type": "ServiceCoverageWithCTA",
+        "props": {
+          "title": "States We Serve",
+          "description": "Our regional presence allows us to serve clients across multiple states",
+          "serviceAreas": [
+            "Tennessee",
+            "Georgia",
+            "Alabama",
+            "South Carolina",
+            "North Carolina"
+          ],
+          "ctaTitle": "Don't See Your Location?",
+          "ctaCopy": "We're always expanding our service areas. Contact us to discuss your project—we may be able to help or can recommend a trusted partner.",
+          "ctaText": "Get in Touch",
+          "ctaLink": "/divisions"
         }
       }
     ]
